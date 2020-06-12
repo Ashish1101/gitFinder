@@ -11,7 +11,15 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
+// function FullName(user) {
+//   return `${user.firstName} ${user.lastName}`;
+// }
+
+// const user = {
+//   firstName: 'Ashish',
+//   lastName: 'Shakya',
+// };
+
+// const Name = <h1>Hello {FullName(user)}</h1>;
+
 serviceWorker.unregister();
